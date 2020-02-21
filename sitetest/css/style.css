@@ -1,0 +1,1013 @@
+/* --------- Eléments généraux ------ */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    font-size: 180%;
+    font-weight: 300;
+    margin: 20px 0 30px 10px;
+}
+
+h4 {
+    font-size: 120%;
+    font-weight: 400;
+    color: #fff;
+   
+
+}
+
+a {
+    color: #385466;
+}
+
+a:hover {
+    color: #000;
+}
+
+
+/* ---------- Header ---------- */
+
+header {
+    width: 960px;
+    margin:auto;
+    height: 75px;
+    padding: 0px 10px 0 10px;
+}
+
+header h1 {
+    
+
+    font-size: 15pt;
+    letter-spacing: 1px;
+    display:inline-block;
+    padding-top: 25px;
+}
+
+header h1 a {
+    text-decoration: none;
+    color: #111;
+    font-weight: 100;
+}
+
+header h1 a strong {
+    font-weight: 600;
+  
+
+}
+
+    /* ----- Menu ----- */
+    
+nav {
+	text-align: right;
+	font-size: 95%;
+	margin-left: 40px;
+	display:inline-block;
+
+}
+    
+    
+nav ul li {
+	display: inline-block;
+}
+    
+nav ul li a {
+	text-decoration: none;
+	color: #101115;
+	text-transform: uppercase;
+	font-weight: 300;
+	letter-spacing: 1px;
+	display: block;
+	padding: 0 40px 0 40px;
+	height: 72px;
+    line-height: 72px;
+	background-color: #fff;
+}
+    
+nav ul li a:hover {
+	background-color: #f3f3f3;
+}
+    
+nav ul li a.active {
+	background: none;
+	color: #fff;
+}
+    
+    
+    /* --- */
+
+
+/* ---------- Main part (slider) ---------- */
+
+
+
+.slider {
+    margin-top: 10px;
+    width: 100%;
+    height: 465px;
+    background: url('../img/bandeau.jpg') scroll no-repeat center;
+    background-color: #385466;
+    background-size: cover;
+    background-attachment: fixed;
+    display: block;
+}
+
+.okokok {
+    padding-top: 177px;
+}
+
+.slider h2 {
+    display: block;
+    font-size: 280%;
+    font-weight: 200;
+    text-align: center;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.65);
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 110px;
+}
+
+.slider span {
+    color: #fff;
+    text-align: center;
+    font-size: 60%;
+}
+
+	
+
+/* ---------- Content ---------- */
+
+main {
+    width: 960px;
+    margin: auto;
+    padding-top: 40px;
+}
+.descriptif{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+/* ----- Contenu et portfolio ----- */
+
+.portfolio21 {
+    display: inline-block;
+}
+
+.portfolio21 figure {
+    width: 220px;
+	height: 220px;
+	display:inline-block;
+    overflow: hidden;
+    position: relative;
+    margin-left: 13px;
+}
+
+.portfolio21 h3 {
+    text-align: center;
+}
+
+.portfolio ul{
+    display: inline-block;
+}
+main > article {
+	width: 300px;
+	margin: 5px 5px;
+	display: inline-block;
+    vertical-align: top;
+}
+    
+main > article h2 {
+	margin-top: 0;
+	margin-left: 0;
+	font-size: 150%;
+	font-weight: 300;
+	color: #27292a;
+	margin-bottom: 18px;   
+}
+    
+main > article h3 {
+	font-size: 90%;
+	color: #37393a;
+	line-height: 160%;
+}
+
+.portfolio{
+    
+}
+.portfolio figure {
+	width: 220px;
+	height: 220px;
+	background-color: #385466;
+	display:inline-block;
+    overflow: hidden;
+    position: relative;
+    margin-left: 13px;
+}
+
+.portfolio a {
+    display: block;
+    width: 220px;
+    height: 220px;
+	z-index: 20;
+	position: absolute;
+}
+    
+.portfolio figure:hover img{
+	opacity: 0.15;
+}
+ 
+.portfolio div{
+    margin-left: 125px;
+}
+
+.portfolio figure figcaption {
+	text-align: center;
+    position: absolute;
+    top: 0px;
+    width: 220px;
+    padding-top:90px;
+    z-index: -1;
+}
+
+.portfolio figure:hover figcaption{
+    z-index: 10;
+}
+    
+.portfolio figcaption span {
+	font-size: 90%;
+	font-weight: 200;
+}
+    
+/* ----- Contenu et portfolio produits----- */
+
+.portfolio2 h3 {
+    text-align: center;
+}
+
+.portfolio2 ul{
+    display: inline-block;
+}
+main > article {
+	width: 300px;
+	margin: 5px 5px;
+	display: inline-block;
+    vertical-align: top;
+}
+    
+main > article h2 {
+	margin-top: 0;
+	margin-left: 0;
+	font-size: 150%;
+	font-weight: 300;
+	color: #27292a;
+	margin-bottom: 18px;   
+}
+    
+main > article h3 {
+	font-size: 90%;
+	color: #37393a;
+	line-height: 160%;
+}
+
+.portfolio2 figure {
+	width: 180px;
+	height: 180px;
+	background-color: #385466;
+	display:inline-block;
+    overflow: hidden;
+    position: relative;
+}
+
+.portfolio2 a {
+    display: block;
+    width: 180px;
+    height: 180px;
+	z-index: 20;
+	position: absolute;
+}
+    
+.portfolio2 figure:hover img{
+	opacity: 0.15;
+}
+ 
+.portfolio2 div{
+    margin-left: 125px;
+}
+
+.portfolio2 figure figcaption {
+	text-align: center;
+    position: absolute;
+    top: 0px;
+    width: 180px;
+    padding-top: 60px;
+    z-index: -1;
+}
+
+.portfolio2 figure:hover figcaption{
+    z-index: 10;
+}
+    
+.portfolio2 figcaption span {
+	font-size: 90%;
+	font-weight: 200;
+}
+    
+
+.portfolio2 p{
+    display: inline-block;
+    position: absolute;
+    padding-top: 188px;
+    padding-bottom: 2px;
+    text-align: center;
+    width: 180px;
+}
+
+.chiant{
+    margin-top: 19px;
+}
+
+.Liste {
+    margin-left: 140px;
+    margin-right: 100px;
+}
+
+.produits p{
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+
+.produits a {
+    text-decoration: none;
+}
+
+.produits li{
+    font-size: 19px;
+    margin-left: 55px;
+    text-align: center;
+}
+
+.premier{
+    float: left;
+}
+.seconde {
+    float: left;
+}
+
+.produits li {
+    padding-bottom: 11px
+}
+
+.titretarif {
+    text-align: center;
+}
+h5{
+    font-size: 21px;
+    padding-left: 10px;
+}
+
+/* --- tableau ---*/
+
+
+
+
+/* --- */
+
+.about_blok a, .banner1 a, .slider a {
+    display: block;
+    background-color: #385466;
+    width: 110px;
+    padding: 0 30px 0 30px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    margin: auto;
+    color: #fff;
+    font-size: 11pt;
+    font-weight: 400;
+    text-decoration: none;
+    letter-spacing: 1px;
+    border: 5px solid rgba(0, 0, 0, .2);
+}
+
+.about_blok a:hover, .banner1 a:hover, .slider a:hover {
+    border: 5px solid rgba(0, 0, 0, .4);
+}
+
+
+
+hr {
+    color:#bbb;
+    background-color: #bbb;
+    clear: both;
+    height: 3px;
+    margin-top: 37px;
+    margin-bottom:30px;
+    padding: 0;
+    border: 0;
+    text-align: center;
+}
+
+/* ----------- Produits --------------- */
+
+.mainmenu{
+    background: url("../img/banner1.jpg") no-repeat;
+    background-size: 100%;
+
+}
+
+
+/* ---------- Testimonials ------------ */
+
+.about_blok {
+    display: inline-block;
+    margin-right: 10%;
+    width: 960px;
+    float: left;
+    margin-right: 80px;
+    font-size: 90%;
+}
+
+.about_blok h3{
+    display: block;
+    text-align: center;
+}
+
+.about_blok article{
+    display: block;
+    width: auto;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.about_blok p{
+    display: block;
+    padding-bottom: 10px;
+    font-size: 20px;
+    position: relative;
+}
+.about_blok li{
+    margin-left: 50px;
+    padding-bottom: 5px;
+}
+
+.about_blok article div{
+    display: inline-block;
+    width: 45%;
+}
+
+.about_blok article section{
+    position: absolute;
+    top: 0px;
+    padding-top: 6%;
+    
+}
+.about_blok a {
+    display: block;
+    margin-left: 200px;
+}
+
+.horloge{
+    margin-left: 290px;
+}
+
+
+
+/* ---------- bannière ---------- */
+
+.banner1 {
+    width: 890px;
+    height: 76px;
+    padding: 42px 0 0 50px;
+    margin: auto;
+    margin-bottom: 0px;
+    margin-top: 45px;
+    background: url('../img/banner1.jpg') no-repeat scroll;
+    background-color: #000;
+    color: #c3ccd5;
+    position: relative;
+}
+
+.banner1 p {
+    font-weight: 200; 
+    font-size: 20pt;
+    display: block;
+    width: 630px;
+}
+
+.banner1 p b {
+    color: #fff;
+    font-weight: 300;
+}
+
+.banner1 a {
+    width: 100px;
+    position: absolute;
+    right: 42px;
+    top: 30px;
+}
+
+
+
+/* ---------- Footer ---------- */
+
+
+
+
+footer {
+    clear:both;
+    width: 100%;
+    height: 182px;
+    background: url('../img/bg_footer.jpg') scroll no-repeat center;
+    background-size: cover;
+    background-color: #28533f;
+    color: #a5a5a5;
+    font-weight: 300;
+    font-size: 90%;
+    margin-top: 80px;
+}
+
+.footer_in {
+    width: 960px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+footer p {
+    display: inline-block;
+    width:700px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+footer span {
+    display: inline-block;
+    width:240px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+/* ------------- TARIF --------*/
+
+.bloktarif {
+    float:left;
+    width:257px;
+    height: 257px;
+    margin-bottom: 25px;
+}
+
+.blocktarif2 {
+    width: 257px;
+    height: 257px;
+    float: right;
+    margin-bottom: 30px;
+}
+
+.decale {
+    float: right;
+    margin-left: 700px;
+    height: 257px;
+    width: 257px;
+    margin-right: 30px;
+}
+.nondecale {
+    height: 257px;
+    width: 257px;
+    margin-left: 38px;
+}
+
+.tarif {
+    float:left;
+    width:550px;
+    margin-left: 100px;
+    font-size: 18px;
+}
+.tarif2 {
+    float: right;
+    width: 550px;
+    font-size: 18px;
+    margin-right: 100px;
+}
+
+.minititre {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.gauche {
+    float:left;
+    width:290px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.droite {
+    float:left;
+    width:220px;
+}
+
+.gauche p {
+    margin-bottom: 8px;
+}
+
+.droite p {
+    margin-bottom: 8px;
+}
+
+
+/* --- taabbbbbb ----*/
+
+.minititre2{
+    margin-left: 267px;
+    margin-bottom: 10px;
+    font-size: 24px;  
+}
+table {
+    display: inline-block;
+    margin-left: 38px;
+}
+.b { text-align:center }
+.e { text-align:center }
+.f { text-align:right }
+.inlineStr { text-align:left }
+.n { text-align:right }
+.s { text-align:left }
+td.style0 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+th.style0 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+	  td.style1 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+	  th.style1 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+	  td.style2 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+	  th.style2 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+	  td.style3 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:2px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+	  th.style3 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:2px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+	  td.style4 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:2px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+	  th.style4 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:2px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+	  td.style5 { vertical-align:middle; text-align:center; border-bottom:2px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+	  th.style5 { vertical-align:middle; text-align:center; border-bottom:2px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+	  td.style6 { vertical-align:middle; text-align:center; border-bottom:2px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+	  th.style6 { vertical-align:middle; text-align:center; border-bottom:2px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+	  td.style7 { vertical-align:middle; text-align:center; border-bottom:2px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:2px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+	  th.style7 { vertical-align:middle; text-align:center; border-bottom:2px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:2px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+	  td.style8 { vertical-align:middle; text-align:center;
+          font-weight: bold; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:2px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Calibri'; 
+          font-size:13pt;
+          background-color:white }
+	  th.style8 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:2px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+	  td.style9 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:2px solid #000000 !important; border-right:2px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:#000000 }
+	  th.style9 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:2px solid #000000 !important; border-right:2px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:#000000 }
+	  td.style10 { vertical-align:middle; text-align:center;
+          font-weight: bold;
+          border-bottom:2px solid #000000 !important; border-top:1px solid #000000 !important; border-left:2px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:12pt; background-color:white }
+	  th.style10 { vertical-align:middle; text-align:center; border-bottom:2px solid #000000 !important; border-top:1px solid #000000 !important; border-left:2px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+	  td.style11 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:2px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:12pt; background-color:white }
+	  th.style11 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:2px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+	  td.style12 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+	  th.style12 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+	  td.style13 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+	  th.style13 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+	  td.style14 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:1px solid #000000 !important; border-right:2px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+	  th.style14 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:1px solid #000000 !important; border-right:2px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+	  td.style15 { vertical-align:middle; text-align:center; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:2px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Calibri'; font-size:13pt; background-color:white }
+	  th.style15 { vertical-align:middle; text-align:center; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:2px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+	  td.style16 { vertical-align:middle; text-align:center; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+	  th.style16 { vertical-align:middle; text-align:center; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+	  td.style17 { vertical-align:middle; text-align:center; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:1px solid #000000 !important; border-right:2px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+	  th.style17 { vertical-align:middle; text-align:center; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:1px solid #000000 !important; border-right:2px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+	  table.sheet0 col.col0 { width:100.33333239999999pt }
+	  table.sheet0 col.col1 { width:81.33333239999999pt }
+	  table.sheet0 col.col2 { width:81.33333239999999pt }
+	  table.sheet0 col.col3 { width:81.33333239999999pt }
+	  table.sheet0 col.col4 { width:81.33333239999999pt }
+	  table.sheet0 col.col5 { width:54.2222216pt }
+	  table.sheet0 tr { height:15pt }
+	  table.sheet0 tr.row0 { height:22.5pt }
+	  table.sheet0 tr.row1 { height:22.5pt }
+	  table.sheet0 tr.row2 { height:22.5pt }
+	  table.sheet0 tr.row3 { height:22.5pt }
+	  table.sheet0 tr.row4 { height:5.25pt }
+	  table.sheet0 tr.row5 { height:22.5pt }
+	  table.sheet0 tr.row6 { height:22.5pt }
+	  table.sheet0 tr.row7 { height:22.5pt }
+	  table.sheet0 tr.row8 { height:22.5pt }
+
+.barreverticale{
+    
+    height: 220px;
+    border-right: 2px solid black; 
+    text-align: center;
+    margin-right: 471px;
+}
+
+.decale2 {
+    position: absolute;
+    right: 500px;
+    top: 2287px;
+    height: 220px;
+    width: 220px;
+}
+.melimelo{
+}
+
+.gauche4{
+    float: left
+}
+.nondecale2 {
+    height: 220px;
+    width: 220px;
+    margin-left: 38px;
+}
+
+.tarif3{
+    float:left;
+    width:150px;
+    margin-left: 49px;
+    font-size: 18px;
+    margin-top: 90px;
+}
+
+.gauche2 {
+    float:left;
+    width: 150px;
+    text-align: center;
+}
+
+.tarif10{
+    float:left;
+    width:150px;
+    margin-left: 49px;
+    font-size: 18px;
+    margin-top: 14px;
+}
+
+.droite {
+    float:left;
+    width:220px;
+}
+
+.blocktarif {
+    float: right;
+    width: 220px;
+    height: 220px;  
+    width: 441px;
+}
+
+.minititre5 {
+    width: 200px;
+    
+}
+.minititre4{
+    text-align: center;
+    width: 150px;
+}
+.gauche5 {
+    float: right;
+    width: 200px;
+    margin-right: 256px;
+    text-align: center;
+    margin-top: 85px;
+    font-size: 18px;
+}
+
+.special{
+    color:#bbb;
+    background-color: #bbb;
+    clear: both;
+    height: 3px;
+    margin-bottom:30px;
+    text-align: center;
+}
+
+.decale3 {
+    position: absolute;
+    right: 500px;
+    top: 2602px;
+    height: 220px;
+    width: 220px;
+}
+
+.decale4 {
+    position: absolute;
+    right: 500px;
+    top: 2918px;
+    height: 220px;
+    width: 220px;
+}       
+
+.avis{
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: red;
+}
+.gauche6 {
+    float: right;
+    width: 460px;
+    text-align: center;
+    font-size: 18px;
+}
+.gauche7 {
+    text-align: center;
+    font-size: 18px;
+}
+
+.comment{
+    display: block;
+    font-size: 17px;
+    margin-top: 200px;
+    color: red;
+    
+}
+.comment2{
+    display: block;
+    font-size: 17px;
+    margin-top: 200px;
+    margin-left: 300px;
+    width: 300px;
+    color: red;
+}
+
+
+/*--------------------*/
+
+
+.blocksalu {
+    float: right;
+    width: 220px;
+    height: 220px;  
+    width: 441px;
+    display: inline-block;
+}
+
+
+.melimelo2 {
+}
+
+.gauche8 {
+    float: left
+}
+
+.bloktarif1 {
+    float:left;
+    width:220px;
+    height: 220px;
+    margin-bottom: 25px;
+     margin-left: 38px;
+}
+
+.bloktarif1 img {
+    width: 220px;
+    height: 220px;
+}
+
+.tarif4{
+    float:left;
+    width:150px;
+    margin-left: 49px;
+    font-size: 18px;
+    margin-top: 85px;
+}
+
+.minititre4 {
+    text-align: center;
+    width: 150px;
+    margin-top: 6px
+}
+
+.tarof{
+    float: right;
+    width:220px;
+    height: 220px;
+    margin-right: 30px;
+}
+
+.tarof img {
+    width: 220px;
+    height: 220px;
+}
+
+.texte{
+    margin-top: 40px;
+    float: left;
+    width: 150px;
+    margin-left: 10px;
+}
+.droite4 {
+    width: 150px;
+    text-align: center;
+}
+
+.minititre1{
+    margin-top: 50px;
+    text-align: center;
+    width: 150px;
+}
+.minititre19{
+    margin-top: 30px;
+    text-align: center;
+    width: 150px;
+}
+
+.nosservice li {
+    width: 1000px;
+    font-size: 20px;
+}
+
+.petit {
+    font-size: 18px;
+    width: 300px;
+    margin-left: 40px;
+}
+
+.textee {
+ text-align: center; 
+}
+
+.tabb {
+    margin-left: 330px;
+}
+
+.lol {
+     margin-left: 317px;
+    margin-bottom: 10px;
+    font-size: 24px; 
+}
+
+.textesd {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+}
+
+.about_blok2 {
+    display: inline-block;
+    margin-right: 10%;
+    width: 960px;
+    float: left;
+    margin-right: 80px;
+    font-size: 90%;
+}
+
+.about_blok2 h3{
+    display: block;
+    text-align: center;
+}
+
+.about_blok2 article{
+    display: block;
+    width: auto;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.about_blok2 p{
+    display: block;
+    padding-bottom: 10px;
+    font-size: 20px;
+    position: relative;
+}
+.about_blok2 li{
+    margin-left: 50px;
+    padding-bottom: 5px;
+}
+
+.about_blok2 article div{
+    display: inline-block;
+    width: 45%;
+}
+
+.about_blok2 article section{
+    position: absolute;
+    top: 0px;
+    padding-top: 6%;
+    
+}
+.about_blok2 a {
+    display: block;
+    margin-left: 200px;
+}
+
+.stere {
+    display: block;
+    text-align: center;
+}
+
+.stere2 {
+    text-decoration: none;
+    text-align: center;
+    color: red;
+    font-size: 20px;
+}
