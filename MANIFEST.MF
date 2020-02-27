@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Created-By: Julien
+Main-Class: createHtml
+Class-Path: ./Server.jar
+
